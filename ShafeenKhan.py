@@ -26,7 +26,7 @@ The recommendations are generated using the FP-Growth algorithm on a dataset of 
 
 # Load the datasets
 anime_df = pd.read_csv("anime-dataset-2023.csv")
-movies_df = pd.read_csv("anime-dataset-2023.csv")
+movies_df = pd.read_csv("ratings_small.csv")
 
 # Display the initial datasets
 col1, col2 = st.columns(2)
